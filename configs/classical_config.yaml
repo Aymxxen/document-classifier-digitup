@@ -1,0 +1,11 @@
+data:
+  input_path: "data/processed"
+  image_size: [64, 64]  # Petit format pour SVM
+
+model:
+  type: "svm"
+  kernel: "rbf"
+  pca_variance: 0.95
+
+output:
+  model_path: "outputs/classical_model.pkl"

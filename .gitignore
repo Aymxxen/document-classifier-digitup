@@ -1,0 +1,19 @@
+# Ignorer les données brutes et traitées
+data/raw/
+data/processed/
+data/
+
+# Ignorer les fichiers Python compilés et environnements
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Ignorer les gros modèles (> 100Mo)
+outputs/*.pth
+outputs/*.pkl
+*.pth
+
+# Ignorer les dossiers IDE
+.idea/
+.vscode/

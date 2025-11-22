@@ -1,0 +1,16 @@
+data:
+  train_path: "data/processed/train"
+  val_path: "data/processed/val"
+  image_size: 224
+  batch_size: 32
+
+training:
+  epochs: 20
+  learning_rate: 0.001
+  device: "cuda"
+  seed: 42
+
+model:
+  base: "resnet50"
+  num_classes: 16
+  save_path: "outputs/best_model.pth"
