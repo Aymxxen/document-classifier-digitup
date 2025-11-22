@@ -16,7 +16,7 @@ La solution propose une approche **Deep Learning (CNN)** robuste, couplée à un
 4.  **Interface UI** : Application **Streamlit** interactive permettant l'upload, l'analyse et la **correction manuelle (Feedback loop)**.
 5.  **Métriques** : Évaluation complète (F1-Score, Matrice de Confusion, Courbes ROC).
 
-## 🛠️ Architecture Technique
+##  Architecture Technique
 Le projet est structuré de manière modulaire :
 ```bash
 ├── app/            # Interface utilisateur (Streamlit)
