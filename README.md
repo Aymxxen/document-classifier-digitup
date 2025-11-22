@@ -3,11 +3,11 @@
 **Auteur :** Mohammed Aymene Gheriani  
 **Type :** Test Technique - Ingénieur IA  
 
-## 📌 Contexte & Objectif
+##  Contexte & Objectif
 Ce projet vise à automatiser le tri de documents administratifs (Factures, CV, Lettres, Rapports, etc.) . 
 La solution propose une approche **Deep Learning (CNN)** robuste, couplée à une interface explicable (XAI) pour garantir la transparence des décisions.
 
-## 🚀 Fonctionnalités Clés
+##  Fonctionnalités Clés
 1.  **Pipeline de Données** : Ingestion, nettoyage et split train/val/test reproductible.
 2.  **Modélisation Hybride** :
     *   **Deep Learning** : ResNet50 (Transfer Learning) pour une haute performance.
